@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+     padding: 0px;
+    margin: 0px; 
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
+body{
+  
+       background-image: url(imag/WhatsApp.jpeg);
+    background-repeat: repeat;
+    background-size: contain; 
+    background-position-x: 0px;
+    background-position-y: 300px;
+   background-color: rgb(3 31 74); 
+   min-height: 1000px;
+  
+   
+  }
+
+
+  header{
+  
+    padding: 15px ; 
+    background-color: black;  
+    width: 100%;
+    position: fixed;
+    z-index: 200000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px; 
+
+  }
+
+
+
+  
+
+
+.fa-bars{
+  visibility: hidden; 
+  display: none ;
+  position: absolute;
+  left: -100px;
+}
+
+
+.fa-times{
+  visibility: hidden; 
+  display: none ;
+  position: absolute;
+  left: -100px;
+  
+}
+
+
+.nav a {
+  display: block;
+  padding: 20px 30px;
+  font-size: 25px;
+  text-decoration: none;
+  color: #ccc;
+  display: inline;
+}
+.nav a:hover {
+  color: #fff;
+}
+
+ 
+.openpage{
+  background-image: url(imag/رسومات-الاطفال.jpg);
+   padding: 150px; 
+  background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+overflow: hidden;
+}
+
+.openpage p{
+  border: 3px  white;
+  color: rgb(204, 204, 216);
+  margin: 20px 10;
+  font-size: 2em;
+  padding: 10px;
+  position: relative;
+  left: 860px;
+  background-color: rgb(221, 132, 31);
+  border-radius: 10px;
+  bottom: -80px;
+  
+}
+
+
+
+.project-card{
+  background-color: aliceblue ;
+  border: 1px solid rgb(240, 239, 239);
+  min-height: 12em;
+  width: 25em;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 20px;
+  position: absolute;
+  bottom: -250px;
+  left: 420px;
+  transition: 0.5s ease;
+
+}
+
+.project-card:hover{
+  transform: scale(1.06);
+}
+
+.project-imag img{
+ width: 100%;
+}
+
+
+
+.project-category{
+ font-size: 1.2em;
+ margin-top: 10px;
+ text-align: center;
+}
+
+.project-title{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em;
+  font-weight: 800px;
+  margin-top: 10px;
+  direction: rtl;
+}
+
+.trainer{
+  font-size: 1.4em;
+}
+
+
+.details{
+  text-decoration: none;
+  color: blue;
+  font-size: 1.3em;
+}
+
+.details:hover{
+  color: #601cfc; 
+ 
+}
+
+
+
+    .disingerfooter{
+      background-color: black;
+      position: relative;
+      bottom: -1030px;
+      padding: 1em;
+      display: flex;
+      justify-content: space-between;
+      
+      }
+      
+       .disingername{
+        color: antiquewhite;
+        font-size: 1.4em;
+      }
+      
+      .disiner{
+        font-size: 1.3em;
+        color: aqua;
+      }
+      
+       .disinersocial{
+          font-size: 1.8em;
+      }
+      .disinersocial a{
+        color: aliceblue;
+      }
+      
+      
+      
+      
+      
+      .webfooter{
+      background-color: black;
+      position: relative;
+      bottom: -1030px;
+      padding: 1em;
+      display: flex;
+      justify-content: space-between;
+      
+      }
+      
+       .webname{
+        color: rgb(16, 156, 190);
+        font-size: 1.9em;
+      }
+      
+      
+      
+       .hazemsocial{
+          font-size: 1.7em;
+      }
+      .hazemsocial a{
+        color: aliceblue;
+      }
+
+
+  @media (max-width:1180px) {
+    .openpage p{
+   left: 740px;
+  }
+
+  .project-card{
+    bottom: -400px;
+    left: 360px;
+  }
+  }
+
+
+
+
+
+      @media (max-width:1024px){
+
+     
+        body{
+        background-position-y: 350px;
+          
+        }
+
+
+         header{  
+    padding: 30px ;
+    
+  }
+
+    .nav a{
+      padding: 9px 15px;
+    }
+
+    .openpage p{
+      left: 580px;
+    }
+
+       .project-card{
+         position: relative;
+        bottom: -310px;
+        left: 140px;
+        width: 40em;
+        }
+
+
+
+
+
+        .project-category{
+          font-size: 1.9em;
+          margin-top: 10px;
+          text-align: center;
+         }
+         
+         .project-title{
+           display: flex;
+           justify-content: space-between;
+           padding: 0.5em;
+           font-weight: 800px;
+           margin-top: 10px;
+           direction: rtl;
+         }
+         
+         .trainer{
+           font-size: 2.4em;
+         }
+         
+         
+         .details{
+           text-decoration: none;
+           color: blue;
+           font-size: 2.3em;
+         }
+
+
+
+
+
+          
+    .disingerfooter{
+      position: relative;
+      bottom: -900px;
+      width: 100%;
+      padding: 30px;
+      }
+      
+
+      
+      
+    
+      .webfooter{
+      position: relative;
+      bottom: -900px;
+      width: 100%;
+      padding: 30px;
+      }
+
+
+
+    
+         .disingername{
+          color: antiquewhite;
+          font-size: 1.9em;
+        }
+        
+        .disiner{
+          font-size: 1.3em;
+          color: aqua;
+        }
+        
+         .disinersocial{
+            font-size: 2em;
+         padding: 13px;
+
+        }
+
+        .disinersocial a{
+          padding: 10px;
+        }
+        
+        
+        .hazemsocial a{
+          padding: 10px;
+        }
+        
+        
+        
+         .webname{
+          color: rgb(16, 156, 190);
+          font-size: 2.5em;
+        }
+        
+        
+        
+         .hazemsocial{
+            font-size: 2.3em;
+            padding: 8px;
+        }
+
+
+
+      }
+
+
+      @media ( max-width:1000px) {
+        header{
+  
+          padding: 30px ; 
+          width: 100%;
+          position: fixed;
+          z-index: 200000;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin: 0px; 
+          
+        }
+        
+        .logo img{
+          position: relative;
+          left: 640px;
+          width: 300px;
+        }
+        
+        
+        .fa-bars{
+        position: absolute;
+        left: 80px;
+        visibility: visible;
+        bottom: 6px;
+        font-size: 2.1em;
+        margin-bottom: 20px;
+        }
+        
+        
+        .fa-times{
+        visibility: visible;
+        position: absolute;
+        left: 100px;
+     
+        }
+        
+        .nav {
+          height: 100%;
+          width: 0;
+          position: fixed;
+          z-index: 1;
+          top: 0;
+          left: 0;
+          background-color: rgb(49, 47, 47);
+          opacity: .9;
+          overflow-x: hidden;
+          padding-top: 30px;
+          transition: 0.7s;
+        
+        }
+        
+        
+        .nav a {
+          display: block;
+          padding: 15px 30px;
+          font-size: 60px;
+          text-decoration: none;
+          color: #ccc;
+          border-bottom: 1px solid ghostwhite;
+        }
+        .nav a:hover {
+          color: #fff;
+          transition: 0.4s;
+        }
+        
+        
+        .nav .close {
+          position: absolute;
+          top: 0;
+          right: 90px;
+          margin-left:50px;
+          font-size: 30px
+        }
+        
+        
+        .slide a {
+          color: rgb(182, 175, 175);
+          font-size: 20px;
+        }
+        
+        
+        #content {
+          padding: 20px;
+          transition: margin-left 0.7s;
+          overflow: hidden;
+          width: 100%;
+        }
+      }
+

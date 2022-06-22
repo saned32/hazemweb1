@@ -1,0 +1,1214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+     padding: 0px;
+    margin: 0px; 
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    background-image: url(imag/WhatsApp.jpeg);
+    background-repeat: repeat ;
+    background-size: contain;
+    background-position-x: 0px;
+    background-position-y: 280px;
+   background-color: rgb(3 31 74);
+   min-height: 1300px;
+   
+  }
+
+  header{
+  
+    padding: 15px ; 
+    background-color: black;  
+    width: 100%;
+    position: fixed;
+    z-index: 200000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px; 
+
+  }
+
+
+
+  
+
+
+.fa-bars{
+  visibility: hidden; 
+  display: none ;
+  position: absolute;
+  left: -100px;
+}
+
+
+.fa-times{
+  visibility: hidden; 
+  display: none ;
+  position: absolute;
+  left: -100px;
+  
+}
+
+
+.nav a {
+  display: block;
+  padding: 20px 30px;
+  font-size: 25px;
+  text-decoration: none;
+  color: #ccc;
+  display: inline;
+}
+.nav a:hover {
+  color: #fff;
+}
+
+
+
+
+
+  .posterpage{
+   position: relative;
+    bottom: -180px;
+   text-align: center;
+  }
+
+
+ 
+    .imgpagehello img{
+      position: relative;
+      bottom: -460px;
+      left: 1px; 
+
+    } 
+
+    .imgpagehello{
+      text-align: center;     
+    }
+
+
+  
+    .cours-work{
+      color: aliceblue;
+      background-color: black;
+      text-align: center;
+      padding: 10px ;
+      margin: 180px;
+      position: relative;
+      bottom: -580px;
+      font-size: 1.8em;
+      
+    }
+
+.cours-work-img{
+  text-align: center;
+  display: inline-block;
+  padding: 5px;
+  margin: 10px;
+}
+
+
+.line-one{
+   margin-bottom: 70px;
+  position: relative;
+  bottom: -580px;
+  text-align: center;
+   display: inline-block; 
+}
+
+.line-tow{
+  position: relative;
+  bottom: -770px;
+  text-align: center;
+   display: inline-block;
+}
+
+
+.a1{
+  width: 400px;
+}
+
+.b1{
+  width: 400px;
+}
+
+.c1{
+  width: 400px;
+}
+
+.a2{
+  width: 350px;
+}
+
+.b2{
+  width: 400px;
+}
+
+
+.c2{
+  width: 350px;
+}
+
+ 
+.b1 {
+ margin: 10px;
+}
+
+.b2{
+  margin: 20px;
+}
+
+
+
+
+
+
+
+.disingerfooter{
+background-color: black;
+position: relative;
+bottom: -1150px;
+padding: 1em;
+display: flex;
+justify-content: space-between;
+
+}
+
+ .disingername{
+  color: antiquewhite;
+  font-size: 1.5em;
+}
+
+span{
+  font-size: 1.2em;
+  color: aqua;
+}
+
+ .disinersocial{
+    font-size: 1.6em;
+}
+.disinersocial a{
+  color: aliceblue;
+}
+
+
+
+
+
+.webfooter{
+background-color: black;
+position: relative;
+bottom: -1150px;
+padding: 1em;
+display: flex;
+justify-content: space-between;
+
+}
+
+ .webname{
+  color: rgb(16, 156, 190);
+  font-size: 1.8em;
+}
+
+
+
+ .hazemsocial{
+    font-size: 1.6em;
+}
+.hazemsocial a{
+  color: aliceblue;
+}
+
+
+@media (max-width:1180px) {
+  .nav a{
+    padding: 9px 15px;
+  }
+
+  .posterpage img{
+    width: 780px;
+  }
+
+  .cours-work{
+    bottom: -720px;
+    margin: 30px;
+    margin-bottom: 280px;
+  }
+
+
+  .a1{
+    width: 350px;
+  }
+
+  .b1{
+    width: 350px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+  }
+
+  .c1{
+    width: 350px;
+  }
+
+  .a2{
+    width: 300px;
+
+  }
+
+  .b2{
+    width: 350px;
+     margin-top: 60px;
+    margin-bottom: 60px;
+    position: relative;
+
+
+  }
+
+
+  .c2{
+    width: 300px;
+    position: relative;
+
+  }
+
+
+
+  .line-one{
+    margin-bottom: 70px;
+    position: relative;
+    bottom: -530px;
+    text-align: center;
+  
+  }
+  
+  .line-tow{
+    position: relative;
+    bottom: -600px;
+    text-align: center;
+    
+  }
+
+  .disingerfooter{
+    bottom: -800px;
+  }
+
+  .webfooter{
+    bottom: -800px;
+  }
+  
+}
+
+
+@media (max-width: 1024px){
+  .nav a{
+    padding: 9px 15px;
+  }
+
+  .posterpage img{
+    width: 780px;
+  }
+
+  .cours-work{
+    bottom: -720px;
+    margin: 30px;
+    margin-bottom: 280px;
+  }
+
+
+  .a1{
+    width: 500px;
+  }
+
+  .b1{
+    width: 500px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+  }
+
+  .c1{
+    width: 500px;
+  }
+
+  .a2{
+    width: 500px;
+
+  }
+
+  .b2{
+    width: 480px;
+     margin-top: 60px;
+    margin-bottom: 60px;
+    position: relative;
+
+
+  }
+
+
+  .c2{
+    width: 480px;
+    position: relative;
+
+  }
+
+
+
+  .line-one{
+    margin-bottom: 70px;
+    position: relative;
+    bottom: -530px;
+    text-align: center;
+  
+  }
+  
+  .line-tow{
+    position: relative;
+    bottom: -600px;
+    text-align: center;
+    
+  }
+
+
+
+
+
+  .disingerfooter{
+    bottom: -1250px;
+  }
+
+  .webfooter{
+    bottom: -1250px;
+  }
+}
+
+
+
+
+
+@media (max-width:1000px){
+body{
+  background-position-y: 320px;
+  background-image: url(imag/Hazem.jpg);
+}
+
+header{
+  
+  padding: 4px ; 
+  width: 100%;
+  position: fixed;
+  z-index: 200000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px; 
+  
+}
+
+.logo img{
+position: relative;
+left: 560px;
+width: 140px;
+font-size: 1.5em;
+}
+
+
+.fa-bars{
+position: absolute;
+left: 50px;
+visibility: visible;
+bottom: 8px;
+}
+
+
+.fa-times{
+visibility: visible;
+position: absolute;
+left: 100px;
+}
+
+.nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(49, 47, 47);
+  opacity: .9;
+  overflow-x: hidden;
+  padding-top: 30px;
+  transition: 0.7s;
+
+}
+
+
+.nav a {
+  display: block;
+  padding: 15px 30px;
+  font-size: 25px;
+  text-decoration: none;
+  color: #ccc;
+  border-bottom: 1px solid ghostwhite;
+}
+.nav a:hover {
+  color: #fff;
+  transition: 0.4s;
+}
+
+
+.nav .close {
+  position: absolute;
+  top: 0;
+  right: 90px;
+  margin-left:50px;
+  font-size: 30px
+}
+
+
+.slide a {
+  color: rgb(182, 175, 175);
+  font-size: 20px;
+}
+
+
+#content {
+  padding: 20px;
+  transition: margin-left 0.7s;
+  overflow: hidden;
+  width: 100%;
+}
+
+  .posterpage img{
+    width: 720px;
+  }
+
+  .imgpagehello img{
+    width: 700px;
+    background-image: url(imag/WhatsApp.jpeg);
+    background-size: contain;
+  }
+
+  .cours-work{
+    bottom: -720px;
+    margin: 30px;
+    margin-bottom: 280px;
+  }
+
+
+
+  .a1{
+    width: 500px;
+  }
+
+  .b1{
+    width: 500px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+  }
+
+  .c1{
+    width: 500px;
+  }
+
+  .a2{
+    width: 500px;
+
+  }
+
+  .b2{
+    width: 480px;
+     margin-top: 60px;
+    margin-bottom: 60px;
+    position: relative;
+
+
+  }
+
+
+  .c2{
+    width: 480px;
+    position: relative;
+
+  }
+
+
+
+  .line-one{
+    margin-bottom: 70px;
+    position: relative;
+    bottom: -530px;
+    text-align: center;
+  
+  }
+  
+  .line-tow{
+    position: relative;
+    bottom: -600px;
+    text-align: center;
+    
+  }
+
+
+
+  .disingerfooter{
+    bottom: -800px;
+  }
+
+  .webfooter{
+    bottom: -800px;
+  }
+}
+
+
+
+@media (max-width:660px){
+
+
+  .posterpage img{
+   width: 550px;
+}
+
+.imgpagehello img{
+  width: 500px;
+}
+
+
+.logo img{
+  left: 450px;
+  margin-top: 10px;
+}
+
+.a1{
+  width: 400px;
+}
+.b1{
+  width: 400px;
+}
+.c1{
+  width: 400px;
+}
+.a2{
+  width: 350px;
+}
+.b2{
+  width:350px ;
+}
+.c2{
+  width: 350px;
+}
+
+}
+
+
+
+
+
+
+@media (max-width:599px){
+
+  body{
+    background-position-y: 160px;
+  }
+
+  header{
+  
+    padding: 1px ; 
+    width: 100%;
+    position: fixed;
+    z-index: 200000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px; 
+    
+  }
+
+.logo img{
+  position: relative;
+  left: 220px;
+  width: 130px;
+  padding: 1px;
+  margin: 1px;
+  bottom: -4px;
+}
+
+
+.fa-bars{
+position: absolute;
+left: 50px;
+visibility: visible;
+bottom: 8px;
+}
+
+
+.fa-times{
+ visibility: visible;
+  position: absolute;
+  left: 100px;
+}
+
+  .nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(49, 47, 47);
+    opacity: .9;
+    overflow-x: hidden;
+    padding-top: 30px;
+    transition: 0.7s;
+  
+  }
+
+
+  .nav a {
+    display: block;
+    padding: 15px 30px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #ccc;
+    border-bottom: 1px solid ghostwhite;
+  }
+  .nav a:hover {
+    color: #fff;
+    transition: 0.4s;
+  }
+
+
+  .nav .close {
+    position: absolute;
+    top: 0;
+    right: 90px;
+    margin-left:50px;
+    font-size: 30px
+  }
+
+
+  .slide a {
+    color: rgb(182, 175, 175);
+    font-size: 20px;
+  }
+
+
+  #content {
+    padding: 20px;
+    transition: margin-left 0.7s;
+    overflow: hidden;
+    width: 100%;
+  }
+
+
+        .posterpage img{
+          width: 310px;
+          position: relative;
+          bottom: 100px;
+        }
+
+
+        .imgpagehello img{
+          width: 310px;
+          overflow: hidden;
+          position: relative;
+          bottom: -260px;
+        }
+
+
+
+
+
+        .cours-work{
+          padding: 10px ;
+          margin: 5px;
+          position: relative;
+          bottom: -480px;
+          font-size: 1.8em;
+         
+         
+        }
+    
+    .cours-work-img{
+      padding: 5px;
+      margin: 10px;
+      text-align: center;
+      display: block;
+    }
+    
+    
+    .line-one{
+      margin-bottom: 70px;
+      position: relative;
+      bottom: -530px;
+      text-align: center;
+      /* display: inline-block; */
+    }
+    
+    .line-tow{
+      position: relative;
+      bottom: -600px;
+      text-align: center;
+      /* display: inline-block; */
+    }
+
+
+
+
+
+        .a1{
+          width: 300px;
+        }
+
+        .b1{
+          width: 320px;
+          margin-bottom: 40px;
+          margin-top: 40px;
+        }
+
+        .c1{
+          width: 330px;
+        }
+
+        .a2{
+          width: 300px;
+        }
+
+        .b2{
+          width: 260px;
+          margin-top: 40px;
+          margin-bottom: 40px;
+        }
+
+
+        .c2{
+          width: 300px;
+        }
+
+
+
+
+        .disingerfooter{
+          padding: 1.1em;
+          display: flex;
+          justify-content: space-between;
+          position: relative;
+          bottom: -700px;
+          width: 100%;
+          }
+          
+           .disingername{
+            font-size: 0.8em;
+          }
+          
+          span{
+            font-size: 1em;
+          }
+          
+           .disinersocial{
+              font-size: 1.1em;
+              padding: 0 4px;
+          }
+
+        .webfooter{
+          width: 100%;
+          padding: 0.9em;
+          display: flex;
+          justify-content: space-between;
+          position: relative;
+          bottom: -700px;
+        
+          }
+          
+           .webname{
+            color: rgb(16, 156, 190);
+            font-size: 1.1em;
+          }
+          
+          
+          
+           .hazemsocial{
+              font-size: 1.4em;
+          }
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media (max-width:330px){ 
+
+  body{
+  
+
+    background-repeat: repeat;
+    background-size: contain;
+    background-position-x: 0px;
+    background-position-y: 160px;
+   background-color: rgb(3 31 74);
+   min-height: 1300px;
+  }
+
+
+
+.logo img{
+  position: relative;
+  left: 170px;
+  width: 130px;
+  padding: 1px;
+  margin: 1px;
+  bottom: -4px;
+
+}
+
+
+
+
+        .posterpage img{
+          width: 310px;
+          position: relative;
+          bottom: 100px;
+        }
+
+
+        .imgpagehello img{
+          width: 310px;
+          overflow: hidden;
+          position: relative;
+          bottom: -260px;
+        }
+
+
+
+
+
+        .cours-work{
+          padding: 10px ;
+          margin: 5px;
+          position: relative;
+          bottom: -440px;
+          font-size: 1.8em;
+         
+         
+        }
+    
+    .cours-work-img{
+      padding: 5px;
+      margin: 10px;
+      text-align: center;
+      text-align: center;
+    }
+    
+    
+    .line-one{
+      margin-bottom: 70px;
+      position: relative;
+      bottom: -530px;
+      text-align: center;
+    }
+    
+    .line-tow{
+      position: relative;
+      bottom: -600px;
+      text-align: center;
+    }
+
+
+
+
+
+        .a1{
+          width: 300px;
+        }
+
+        .b1{
+          width: 280px;
+          margin-bottom: 40px;
+          margin-top: 40px;
+        }
+
+        .c1{
+          width: 280px;
+        }
+
+        .a2{
+          width: 260px;
+        }
+
+        .b2{
+          width: 260px;
+          margin-top: 40px;
+          margin-bottom: 40px;
+        }
+
+
+        .c2{
+          width: 250px;
+        }
+
+
+
+
+        .disingerfooter{
+          padding: 1em;
+          display: flex;
+          justify-content: space-between;
+          position: relative;
+          bottom: -700px;
+          width: 100%;
+          }
+          
+           .disingername{
+            font-size: 0.8em;
+          }
+          
+          span{
+            font-size: 1em;
+          }
+          
+           .disinersocial{
+              font-size: 1.1em;
+              padding: 0 1px;
+          }
+
+        .webfooter{
+          width: 100%;
+          padding: 0.9em;
+          display: flex;
+          justify-content: space-between;
+          position: relative;
+          bottom: -700px;
+        
+          }
+          
+           .webname{
+            color: rgb(16, 156, 190);
+            font-size: 1.1em;
+          }
+          
+          
+          
+           .hazemsocial{
+              font-size: 1.1em;
+          }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:280px){
+
+
+
+  .logo img{
+    position: relative;
+    left: 140px;
+  }
+
+
+
+  .posterpage img{
+    width: 260px;
+    position: relative;
+    bottom: 100px;
+  }
+
+
+  .imgpagehello img{
+    width: 260px;
+    overflow: hidden;
+    position: relative;
+    bottom: -260px;
+  }
+
+
+
+  .a1{
+    width: 210px;
+  }
+
+  .b1{
+    width: 220px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+
+  .c1{
+    width: 220px;
+  }
+
+  .a2{
+    width: 220px;
+  }
+
+  .b2{
+    width: 220px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+
+  .c2{
+    width: 220px;
+  }
+
+
+
+  .disingerfooter{
+    padding: 0.8em;
+    }
+    
+     .disingername{
+      font-size: 0.7em;
+    }
+    
+    span{
+      font-size: 1em;
+    }
+    
+     .disinersocial{
+        font-size: 0.9em;
+      
+    }
+
+  .webfooter{
+    width: 100%;
+    
+  
+    }
+    
+     .webname{
+      font-size: 0.9em;
+    }
+    
+    
+    
+     .hazemsocial{
+        font-size: 0.9em;
+    }
+}
+
+
+
+
+@media (max-width:240px){
+
+
+  .logo img{
+    position: relative;
+    left: 110px;
+    width: 120px;
+  }
+
+
+
+  .posterpage img{
+    width: 220px;
+    position: relative;
+    bottom: 100px;
+  }
+
+
+  .imgpagehello img{
+    width: 220px;
+    overflow: hidden;
+    position: relative;
+    bottom: -260px;
+  }
+
+
+
+  .a1{
+    width: 180px;
+  }
+
+  .b1{
+    width: 180px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+
+  .c1{
+    width: 180px;
+  }
+
+  .a2{
+    width: 180px;
+  }
+
+  .b2{
+    width: 180px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+
+  .c2{
+    width: 180px;
+  }
+
+
+
+  .disingerfooter{
+    padding: 0.7em;
+    }
+    
+     .disingername{
+      font-size: 0.7em;
+    }
+    
+    span{
+      font-size: 0.8em;
+    }
+    
+     .disinersocial{
+        font-size: 0.7em;
+      
+    }
+
+  .webfooter{
+    width: 100%;
+    
+  
+    }
+    
+     .webname{
+      font-size: 0.7em;
+    }
+    
+    
+    
+     .hazemsocial{
+        font-size: 0.7em;
+    }
+
+}

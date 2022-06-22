@@ -1,0 +1,679 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+     padding: 0px;
+    margin: 0px; 
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
+body{
+  
+    background-image: url(imag/WhatsApp.jpeg);
+    background-repeat: repeat;
+    background-size: contain;
+    background-position-x: 0px;
+    background-position-y: 280px;
+   background-color: rgb(3 31 74);
+   min-height: 900px;
+   
+  }
+
+
+
+
+  header{
+  
+    padding: 15px ; 
+    background-color: black;  
+    width: 100%;
+    position: fixed;
+    z-index: 200000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px; 
+
+  }
+
+
+
+  
+
+
+.fa-bars{
+  visibility: hidden; 
+  display: none ;
+  position: absolute;
+  left: -100px;
+}
+
+
+.fa-times{
+  visibility: hidden; 
+  display: none ;
+  position: absolute;
+  left: -100px;
+  
+}
+
+
+.nav a {
+  display: block;
+  padding: 20px 15px;
+  font-size: 25px;
+  text-decoration: none;
+  color: #ccc;
+  display: inline;
+}
+.nav a:hover {
+  color: #fff;
+}
+
+
+
+
+    .openpage{
+        background-image: url(imag/Captu555987re.PNG);
+         padding: 150px; 
+        background-size: contain;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      overflow: hidden;
+      }
+      
+      .openpage p{
+        border: 3px  white;
+        color: rgb(204, 204, 216);
+        margin: 20px 10;
+        font-size: 2em;
+        padding: 10px;
+        position: relative;
+        left: 860px;
+        background-color: rgb(231, 99, 10);
+        border-radius: 10px;
+        bottom: -80px;
+      }
+
+.cours-ditals  {
+
+padding: 10px 30px;
+display: inline-block;
+position: relative;
+bottom: -190px;
+}
+
+
+
+
+table td{
+ position: relative;
+ bottom: 80px;
+ left: 40px;
+  font-size: 2.4em;
+  color: orange;
+  width: 35%;
+  margin-top: 20px;
+}
+
+
+.pri{
+  color: aquamarine;
+ 
+}
+
+
+
+.pri-tow{
+  direction: rtl;
+}
+
+.na{
+  color: aquamarine;
+ 
+}
+
+
+.tra{
+  direction: rtl;
+}
+
+
+
+
+.cours-name{
+  direction: rtl;
+
+ position: relative;
+ bottom: 160px;
+}
+
+.cours-name h1{
+  font-size: 2.2em;
+  color: rgb(231, 99, 10);
+ position: relative;
+ bottom: -190px;
+ right: 50px;
+}
+
+.cours-name .discription{
+ font-size: 1.4em;
+ color: rgb(255, 251, 21);
+ padding: 5px 40px;
+ position: absolute;
+ bottom: -300px;
+ 
+} 
+
+
+
+
+.cours-features{
+  direction: rtl;
+ position: relative;
+  bottom: -300px;
+ right: 40px; 
+}
+
+.cours-features h2{
+  font-size: 2.2em;
+  color: rgb(231, 99, 10);
+ padding: 20px;
+
+}
+
+li{
+  font-size: 1.6em;
+  padding: 6px 130px;
+  color: rgb(255, 251, 21);
+}
+
+
+.bocket-buttn{
+  background-color: orange;
+ transition: 0.7s ease;
+ text-align: center;
+ position: relative;
+ left: 10px;
+ bottom: 50px;
+}
+
+
+.buttn{
+  text-decoration: none;
+  font-size: 1.9em;
+  color: aliceblue;
+  text-align: center;
+}
+
+.bocket-buttn:hover{
+  transform: scale(1.04);
+  
+}
+
+
+.btn-note{
+  background-color: orange;
+ text-align: center;
+ margin: 1px 20px;
+}
+
+
+.buttn-note{
+  text-decoration: none;
+  font-size: 1.9em;
+  color: aliceblue;
+  text-align: center;
+}
+
+.note p{
+  font-size: 1.3em;
+  color: rgb(248, 94, 94);
+  margin-bottom: 20px;
+}
+
+
+.order{
+  position: relative;
+  bottom: -700px;
+
+}
+
+
+
+    
+.disingerfooter{
+    background-color: black;
+    position: relative;
+    bottom: -730px;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    
+    }
+    
+     .disingername{
+      color: antiquewhite;
+      font-size: 1.5em;
+    }
+    
+    span{
+      font-size: 1.2em;
+      color: aqua;
+    }
+    
+     .disinersocial{
+        font-size: 1.6em;
+    }
+    .disinersocial a{
+      color: aliceblue;
+    }
+    
+    
+    
+    
+    
+    .webfooter{
+    background-color: black;
+    position: relative;
+    bottom: -730px;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    
+    }
+    
+     .webname{
+      color: rgb(16, 156, 190);
+      font-size: 1.8em;
+    }
+    
+    
+    
+     .hazemsocial{
+        font-size: 1.6em;
+    }
+    .hazemsocial a{
+      color: aliceblue;
+    }
+
+
+
+
+    @media (max-width:1000px) {
+      body{
+        background-image: url(imag/Hazem.jpg);
+      }
+      
+
+      header{
+        padding: 0px;
+        direction: rtl;
+      }
+    
+.logo img{
+   left: -170px;
+  width: 200px;
+}
+    
+    
+    .fa-bars{
+   position: relative;
+    left: 20px;
+    visibility: visible;
+    bottom: 4px;
+    font-size: 20px;
+    display: inline-block;
+    }
+    
+    
+    .fa-times{
+     visibility: visible;
+      position: absolute;
+      left: 80px;
+      display: block;
+      font-size: 0.6em;
+    }
+    
+      .nav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(49, 47, 47);
+        opacity: .9;
+        overflow-x: hidden;
+        padding-top: 30px;
+        transition: 0.7s;
+        
+      }
+    
+    
+      .nav a {
+        display: block;
+        padding: 5px 10px;
+        font-size: 30px;
+        text-decoration: none;
+        color: #ccc;
+        border-bottom: 1px solid gainsboro;
+      padding-bottom: 80px;
+      text-align: center;
+      }
+      .nav a:hover {
+        color: #fff;
+        transition: 0.4s;
+      }
+    
+    
+      .nav .close {
+        position: absolute;
+        top: 0;
+        right: 90px;
+        margin-left:10px;
+        font-size: 60px;
+      }
+    
+    
+      .slide a {
+        color: rgb(182, 175, 175);
+        font-size: 40px;
+      }
+    
+    
+      #content {
+        padding: 1px 20px;
+        transition: margin-left 0.7s;
+        overflow: hidden;
+      }
+
+      .openpage p{
+        left: 300px;
+        bottom: -30px;
+      }
+
+      .order{
+        bottom: -610px;
+        text-align: center;
+      }
+    }
+
+
+
+
+
+    @media (max-width:600px) {
+      .logo img{
+        width: 140px;
+      }
+
+      .openpage p{
+        left: 130px;
+        margin: -80px;
+        font-size: 1.3em;
+        padding: 4px;
+      }
+
+
+
+
+
+
+
+
+
+      .cours-ditals  {
+
+        padding: 10px 30px;
+        display: inline-block;
+        position: relative;
+        bottom: -190px;
+        }
+        
+        
+        
+        
+        table td{
+         position: relative;
+         bottom: 160px;
+         left: -8px;
+          font-size: 1.8em;
+          color: orange;
+          width: 35%;
+          margin-top: 0px;
+        }
+        
+        
+        .pri{
+          color: aquamarine;
+         
+        }
+        
+        
+        
+        .pri-tow{
+          direction: rtl;
+        }
+        
+        .na{
+          color: aquamarine;
+         
+        }
+        
+        
+        .tra{
+          direction: rtl;
+        }
+        
+        
+        
+        
+        .cours-name{
+          direction: rtl;
+        }
+        
+        .cours-name h1{
+          font-size: 1.5em;
+          color: rgb(231, 99, 10);
+          position: relative;
+         bottom: -120px;
+         right:40px;
+         
+        }
+        
+        .cours-name .discription{
+         font-size: 1.2em;
+         color: rgb(189, 199, 199);
+        position: relative;
+        bottom: -120px;
+        }
+        
+        
+        
+        
+        .cours-features{
+          bottom: -20px;
+         right: 20px; 
+         
+        }
+        
+        .cours-features h2{
+          font-size: 1.3em;
+         padding: 8px;
+        
+        }
+        
+        li{
+          font-size: 1em;
+          padding: 6px 50px;
+          color: rgb(255, 248, 248);
+        }
+        
+        
+        .bocket-buttn{
+          background-color: orange;
+         transition: 0.7s ease;
+         text-align: center;
+         position: relative;
+         left: 4px;
+         margin: 30px;
+         bottom: 180px;
+        }
+        
+        
+        .buttn{
+          text-decoration: none;
+          font-size: 1.3em;
+          color: aliceblue;
+          text-align: center;
+        }
+
+.order{
+  bottom: -410px;
+  text-align: center;
+}
+
+
+.cou-dit{
+  text-align: center;
+}
+
+        
+        .disingerfooter{
+          padding: 1.1em;
+          width: 100%;
+          bottom: -420px;
+          }
+          
+           .disingername{
+            font-size: 0.8em;
+          }
+          
+          span{
+            font-size: 1em;
+          }
+          
+           .disinersocial{
+              font-size: 1em;
+              padding: 0 4px;
+          }
+
+        .webfooter{
+          width: 100%;
+          padding: 0.9em;
+          bottom: -400px;
+        
+          }
+          
+           .webname{
+            font-size: 1.08em;
+          }
+          
+          
+          
+           .hazemsocial{
+              font-size: 1.2em;
+    }
+
+  }
+
+
+  @media (max-width:280px) {
+
+    .logo img{
+      width: 130px ;
+      left: -100px;
+    }
+
+    .openpage p{
+
+      left: 80px;
+    }
+    .order{
+      bottom: -500px;
+    }
+
+    .disingerfooter{
+      padding: 0.9em;
+      margin-bottom: 15px;
+    }
+
+    span{
+      font-size: 0.8em;
+    }
+
+    .disinersocial{
+      font-size: 0.8em;
+    }
+
+    .webname{
+      font-size: 0.9em;
+    }
+
+    .hazemsocial{
+      font-size: 1em;
+    }
+    
+  }
+
+
+  @media (max-width:240px) {
+
+    .openpage p{
+ left: 40px;
+    }
+
+    .logo img{
+      left: 10px;
+    }
+
+    .order{
+      bottom: -600px;
+    }
+    
+
+    .disingerfooter{
+      width: 100%;
+      padding: 0.7em;
+    }
+
+    .webname{
+      font-size: 0.8em;
+    }
+    
+    .hazemsocial{
+      font-size: 0.8em;
+    }
+
+
+    .disinersocial{
+      font-size: 0.7em;
+    }
+
+    .disingername{
+      font-size: 0.7em;
+    }
+
+    span{
+      font-size: 0.9em;
+    }
+
+
+    .btn-note{
+      background-color: orange;
+     text-align: center;
+     margin: 1px 5px;
+    }
+    
+    
+    .buttn-note{
+      text-decoration: none;
+      font-size: 1.5em;
+      color: aliceblue;
+      text-align: center;
+    }
+    
+  }
